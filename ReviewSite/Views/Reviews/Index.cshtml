@@ -4,28 +4,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2 class="Reviews Header">Reviews</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Add Review", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Category.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Location.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ReviewedDate)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.StarRating)
-        </th>
+<table class="table table-bordered table-striped">
+    <tr>        
         <th>
             @Html.DisplayNameFor(model => model.Comments)
         </th>
@@ -33,7 +18,7 @@
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
+    <tr >
         <td>
             @Html.DisplayFor(modelItem => item.Category.Name)
         </td>

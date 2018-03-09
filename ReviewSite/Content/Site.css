@@ -203,3 +203,21 @@ footer p {
     font-weight:bold;
     color:black;
 }
+
+/*Reviews page modify*/
+h2.Reviews.Header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+p a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;    
+}
+
+p a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color:black;    
+}
