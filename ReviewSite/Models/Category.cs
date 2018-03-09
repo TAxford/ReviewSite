@@ -6,15 +6,15 @@ using System.Web;
 
 namespace ReviewSite.Models
 {
-    public class Eatery
+    public class Category
     {
         [Key]
-        public int EateryID { get; set; }
+        public int CategoryID { get; set; }
         public string Name { get; set; }
 
-        //Navagation Property
-        public virtual ICollection<Location> Locations { get; set; }
 
+        //Navagation Property
+        public virtual ICollection<Review> Reviews { get; set; }
 
 
 
