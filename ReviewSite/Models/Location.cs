@@ -11,6 +11,7 @@ namespace ReviewSite.Models
     {
         [Key]
         public int LocationID { get; set; }
+        [Display(Name = "Location")]
         public string Name { get; set; }
 
         //Navagation Property

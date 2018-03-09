@@ -11,6 +11,7 @@ namespace ReviewSite.Models
     {
         [Key]
         public int ReviewID { get; set; }
+        [Display(Name = "Name")]
         public string Name { get; set; }
         [Display(Name = "Date Reviewed")]
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}")]
