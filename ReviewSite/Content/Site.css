@@ -1,12 +1,14 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: aqua;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-color:darkgoldenrod;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,6 +24,44 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*Navagation Bar Modify*/
+.navbar.navbar-inverse.navbar-fixed-top{
+    background-color:aqua;    
+}
+
+.navbar-header a.navbar-brand{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-size:30px;
+}
+
+    .navbar-header a.navbar-brand:hover {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+        background-color: black;
+        font-size: 30px;
+    }
+
+ul.nav.navbar-nav li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight:bold;
+    font-size:20px;
+}
+
+ul.nav.navbar-nav li a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:black;
+}
+button.navbar-toggle{
+    background-color:black;
+    color:aqua;
+}
+
 
 /*Home page Header*/
 .jumbotron.HomeHeader {
@@ -74,6 +114,14 @@ p.HomeHeader {
             border-color: black;
         }
 
+        .col-md-4.Reviews p a.btn.btn-default:hover {
+            background-color: red;
+            color: black;;
+            opacity: .9;
+            border-radius: 60%;
+            border-color: black;
+        }
+
 /*Locations Modify*/
 .col-md-4.Locations {
     height: 200px;
@@ -102,6 +150,16 @@ p.HomeHeader {
             border-color: black;
         }
 
+.col-md-4.Locations p a.btn.btn-default:hover {
+    background-color: red;
+    color: black;
+    ;
+    opacity: .9;
+    border-radius: 60%;
+    border-color: black;
+}
+
+/*Category Modify*/
 .col-md-4.Categories {
     height: 200px;
     background-image: url('Img/rsz_category.jpg');
@@ -128,3 +186,20 @@ p.HomeHeader {
         border-radius: 60%;
         border-color: black;
     }
+
+.col-md-4.Categories p a.btn.btn-default:hover {
+    background-color: red;
+    color: black;
+    ;
+    opacity: .9;
+    border-radius: 60%;
+    border-color: black;
+}
+
+/*footer Modify*/
+
+footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    color:black;
+}
