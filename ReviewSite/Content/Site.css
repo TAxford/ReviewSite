@@ -153,7 +153,6 @@ p.HomeHeader {
 .col-md-4.Locations p a.btn.btn-default:hover {
     background-color: red;
     color: black;
-    ;
     opacity: .9;
     border-radius: 60%;
     border-color: black;
@@ -190,7 +189,6 @@ p.HomeHeader {
 .col-md-4.Categories p a.btn.btn-default:hover {
     background-color: red;
     color: black;
-    ;
     opacity: .9;
     border-radius: 60%;
     border-color: black;
@@ -220,4 +218,109 @@ p a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     background-color:black;    
+}
+
+/*edit/detail/delete modify*/
+tr td a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+tr td a:hover{
+    color:black;
+    background-color:red;
+}
+
+tr td{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+/*font modify*/
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+label.control-label.col-md-2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+input#Name.form-control.text-box.single-line {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+input#ReviewedDate.form-control.text-box.single-line {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+input#StarRating.form-control.text-box.single-line {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+input#Comments.form-control.text-box.single-line {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+select#LocationID.form-control{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+select#CategoryID.form-control {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+input.btn.btn-default {
+    background-color: black;
+    color: red;
+    opacity: .9;
+    border-radius: 60%;
+    border-color: black;
+}
+
+input.btn.btn-default:hover {
+    background-color: red;
+    color: black;
+    opacity: .9;
+    border-radius: 60%;
+    border-color: black;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color:black;
+}
+
+/*details modify*/
+dt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+dd {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
